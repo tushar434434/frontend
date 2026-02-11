@@ -1,4 +1,4 @@
-import Wrapper from "./Wrapper";
+/*import Wrapper from "./Wrapper";
 
 export default function App() {
   const user = [
@@ -12,4 +12,31 @@ export default function App() {
       <Wrapper title="User List" users={user} />
     </div>
   );
+}*/
+/* COMPONENT.JSX-------
+import React from 'react';
+import Component from './Component';
+
+function App() {
+  return (
+    <div>
+    
+      <Component />
+    </div>
+  );
 }
+
+export default App;*/
+//TODO.JSX
+
+import React from 'react';
+import Todo from './Todo';
+function App(){
+  return (
+    <div>
+      <Todo />
+    </div>
+  );
+}
+
+export default App;
