@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+/*import React, { useState } from "react";
 
 function Todo() {
   const [task, setTask] = useState("");
@@ -44,4 +44,23 @@ const addTask = () => {
   );
 }
 
-export default Todo;
+export default Todo;*/
+/*
+export default function Todo(){
+  function Todo(name){
+    alert(`you are ${name}`);
+  }
+  return <>
+  <h1>Event Handling</h1>
+  <button onClick={()=>Todo("tushar")}>Click me</button>
+  </>
+}*/
+export default function Todo(){
+  function Todo(name){
+    alert(`you are ${name}`);
+  }
+  return <>
+  <h1>Event Handling</h1>
+  <button onClick={()=>Todo("tushar")}>Click me</button>
+  </>
+}
